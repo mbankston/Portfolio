@@ -1,0 +1,92 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 0; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px; }
+
+#menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+#menu li a {
+  text-decoration: none;
+  color: #000; }
+
+#menu li.active a:hover {
+  color: #000; }
+
+#menu li:hover {
+  background: rgba(255, 255, 255, 0.8); }
+
+#menu li a, #menu li.active a {
+  padding: 9px 18px;
+  display: block; }
+
+#menu li.active a {
+  color: #fff; }
+
+#menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.section {
+  /* the important one*/
+  background-attachment: fixed;
+  color: #fff;
+  background-size: auto 80%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat; }
+
+#section1 {
+  background-image: url('/assets/images/splitrocklesshuge.jpg');
+  background-size: cover; }
+
+#section2 {
+  background: #2574A9; }
+
+#section3 {
+  background: #26A65B; }
+
+#section4 {
+  background: #F2784B; }
+
+.intro h1 {
+  color: #e7ba19; }
+
+.intro p {
+  position: absolute;
+  width: 50%;
+  top: 70%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.2em; }
+
+#template {
+  height: 50%;
+  width: 50%; }
