@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "Matt Bankston",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "2.6.5",
     "gulp": "3.8.11",
     "gulp-autoprefixer": "2.1.0",
     "gulp-cache": "0.2.8",
